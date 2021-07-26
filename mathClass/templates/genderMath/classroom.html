@@ -1,0 +1,162 @@
+{% extends "global/Page.html" %}
+{% load otree %}
+{% load otree static %}
+
+{% block title %}
+    Classroom
+{% endblock %}
+
+{% block content %}
+    <div class="card bg-light m-3 w-100">
+        <div class="card-body w-100">
+
+        <h3>
+            Classroom 
+        </h3>
+        <p>
+            Dummy text
+        </p>
+        <p>
+            Show Flash cards 
+            5 students per row and 5 rows, without test scores 
+            <!-- Data will be randomly picked from a csv of 18000 students, and
+            flash cards will be generated on the spot. These flashcards will
+            need to be used at a later stage. 
+            #1 their test scores need to be hidden
+            #2 they need to have blanks under them to store their ranks,
+            this data will be collected and stored somewhere  -->
+            
+            <!-- This should calculate some ECU score??? -->
+
+            <!-- Description of flashcards: 
+            - Alphabet, Age, race, gender, extra information
+            - redacted math scores  -->
+            {% for field in form %}
+                {% formfield field %}
+            {% endfor %}
+            <style>
+                .wrong-answer {
+                    display: block;
+                    opacity: 1;
+                    position: absolute;
+                    width: 300px;
+                    left: 50%;
+                    margin-left: -150px;
+                    margin-top: -245px;
+                    font-size: 300px;
+                    font-weight: 700;
+                    color: red;
+                    opacity: 0;
+                  }
+                .temp-box {
+                    background-color: lightgrey;
+                    width: 300px;
+                    border: 15px solid green;
+                    padding: 5px;
+                    margin: 20px;
+                    text-align: left;
+                  }
+            
+            </style>
+            <div class="d-flex flex-column">
+                <div class = "first-row d-flex p-2">
+                    <div class="temp-box d-flex flex-column w-25">
+                        <div class="p-2">
+                            <img src="{% static 'stickman.jpeg' %}" class="img-thumbnail"/>
+                        </div>
+                        <div class="p-2">
+                            <ul>
+                                <li>A</li>
+                                <li>Place Holder 2</li>
+                                <li>Place Holder 3</li>
+                                <li>Place Holder 4</li>
+                                <li>Place Holder 5</li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                    <div class="temp-box d-flex flex-column w-25">
+                        <div class="p-2">
+                            <img src="{% static 'stickman.jpeg' %}" class="img-thumbnail"/>
+                        </div>
+                        <div class="p-2">
+                            <ul>
+                                <li>Place Holder 1</li>
+                                <li>Place Holder 2</li>
+                                <li>Place Holder 3</li>
+                                <li>Place Holder 4</li>
+                                <li>Place Holder 5</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="temp-box d-flex flex-column w-25">
+                        <div class="p-2">
+                            <img src="{% static 'stickman.jpeg' %}" class="img-thumbnail"/>
+                        </div>
+                        <div class="p-2">
+                            <ul>
+                                <li>Place Holder 1</li>
+                                <li>Place Holder 2</li>
+                                <li>Place Holder 3</li>
+                                <li>Place Holder 4</li>
+                                <li>Place Holder 5</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class = "second-row d-flex p-2">
+                    <div class="temp-box d-flex flex-column">
+                        <div class="p-2">
+                            <img src="{% static 'stickman.jpeg' %}" class="img-thumbnail"/>
+                        </div>
+                        <div class="p-2">
+                            <ul>
+                                <li>Place Holder 1</li>
+                                <li>Place Holder 2</li>
+                                <li>Place Holder 3</li>
+                                <li>Place Holder 4</li>
+                                <li>Place Holder 5</li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                    <div class="temp-box d-flex flex-column">
+                        <div class="p-2">
+                            <img src="{% static 'stickman.jpeg' %}" class="img-thumbnail"/>
+                        </div>
+                        <div class="p-2">
+                            <ul>
+                                <li>Place Holder 1</li>
+                                <li>Place Holder 2</li>
+                                <li>Place Holder 3</li>
+                                <li>Place Holder 4</li>
+                                <li>Place Holder 5</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="temp-box d-flex flex-column">
+                        <div class="p-2">
+                            <img src="{% static 'stickman.jpeg' %}" class="img-thumbnail"/>
+                        </div>
+                        <div class="p-2">
+                            <ul>
+                                <li>Place Holder 1</li>
+                                <li>Place Holder 2</li>
+                                <li>Place Holder 3</li>
+                                <li>Place Holder 4</li>
+                                <li>Place Holder 5</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </p>
+        <p>{% next_button %}</p>
+    </div>
+    </div>
+
+    {%include Constants.bg_template %}
+
+{% endblock %}
+
