@@ -1,0 +1,38 @@
+
+{% extends "global/Page.html" %}
+{% load otree %}
+
+{% block title %}
+    Student Averages
+{% endblock %}
+
+{% block content %}
+
+    <div class="card bg-light m-3">
+        <div class="card-body">
+
+        <h3>
+            Student Averages
+        </h3>
+        <p>
+            Dummy text 
+        </p>
+        <p>
+            Guess the Average test scores for the following group: 
+            <!-- Avgs of all 18000 -->
+            - Latins 
+            - Asians 
+            - African-Americans 
+            <!-- Shoud have a fill in the blank and store these values  -->
+            <!-- Another scoring function to pay subjects? -->
+
+        </p>
+        <p>{% next_button %}</p>
+    </div>
+    </div>
+
+    {% include Constants.bg_template %}
+
+{% endblock %}
+
+

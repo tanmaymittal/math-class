@@ -1,0 +1,37 @@
+{% extends "global/Page.html" %}
+{% load otree %}
+
+{% block title %}
+    True Averages
+{% endblock %}
+
+{% block content %}
+
+    <div class="card bg-light m-3">
+        <div class="card-body">
+
+        <h3>
+            True Averages and Flashcards 
+        </h3>
+        <p>
+            Show Flash cards again, 5 per row and 5 rows 
+            Reveal math scores 
+        </p>
+        <p>
+            <!-- Guess the scores again to see if they change their mind or not -->
+            Guess the Average test scores for the following group: 
+            - Latins 
+            - Asians 
+            - African-Americans 
+            <!-- Shoud have a fill in the blank and store these values  -->
+            <!-- Another scoring function to pay subjects? -->
+        </p>
+        
+    </div>
+    </div>
+    {% next_button %}
+    {% include Constants.bg_template %}
+
+{% endblock %}
+
+

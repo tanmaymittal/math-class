@@ -66,81 +66,69 @@ BLOCKS = [
         'right': [('concepts', 'canidae')],
         'is_practice': True
     },
-    # {   # 2
-    #     'label': 'Practice 2',
-    #     'n': 10,
-    #     'left': [('attributes', 'neg')],
-    #     'right': [('attributes', 'pos')],
-    #     'is_practice': True
-    # },
-    # {   # 3
-    #     'label': 'Test 1',
-    #     'n': 20,
-    #     'left': [
-    #         ('attributes', 'neg'),
-    #         ('concepts', 'felidae'),
-    #     ],
-    #     'right': [
-    #         ('attributes', 'pos'),
-    #         ('concepts', 'canidae'),
-    #     ]
-    # },
-    # {   # 4: same as 3
-    #     'label': 'Test 2',
-    #     'n': 20,
-    #     'left': [
-    #         ('attributes', 'neg'),
-    #         ('concepts', 'felidae'),
-    #     ],
-    #     'right': [
-    #         ('attributes', 'pos'),
-    #         ('concepts', 'canidae'),
-    #     ]
-    # },
-    # {   # 5
-    #     'label': 'Practice 3 (reversed)',
-    #     'n': 10,
-    #     'left': [('concepts', 'canidae')],
-    #     'right': [('concepts', 'felidae')],
-    #     'is_practice': True,
-    #     'notice': 'WATCH OUT, the categories switch sides!',
-    # },
-    # {  # 6
-    #     'label': 'Test 3',
-    #     'n': 20,
-    #     'left': [
-    #         ('attributes', 'neg'),
-    #         ('concepts', 'canidae'),
-    #     ],
-    #     'right': [
-    #         ('attributes', 'pos'),
-    #         ('concepts', 'felidae'),
-    #     ]
-    # },
-    # {  # 7: same as 6
-    #     'label': 'Test 4',
-    #     'n': 20,
-    #     'left': [
-    #         ('attributes', 'neg'),
-    #         ('concepts', 'canidae'),
-    #     ],
-    #     'right': [
-    #         ('attributes', 'pos'),
-    #         ('concepts', 'felidae'),
-    #     ]
-    # },
-    # {  # 7: same as 6
-    #     'label': 'Test 5',
-    #     'n': 20,
-    #     'left': [
-    #         ('attributes', 'neg'),
-    #         ('concepts', 'canidae'),
-    #     ],
-    #     'right': [
-    #         ('attributes', 'pos'),
-    #         ('concepts', 'felidae'),
-    #     ]
-    # },
+    {   # 2
+        'label': 'Practice 2',
+        'n': 10,
+        'left': [('attributes', 'neg')],
+        'right': [('attributes', 'pos')],
+        'is_practice': True
+    },
+    {   # 3
+        'label': 'Test 1',
+        'n': 20,
+        'left': [
+            ('attributes', 'neg'),
+            ('concepts', 'felidae'),
+        ],
+        'right': [
+            ('attributes', 'pos'),
+            ('concepts', 'canidae'),
+        ]
+    },
+    {   # 4: same as 3
+        'label': 'Test 2',
+        'n': 20,
+        'left': [
+            ('attributes', 'neg'),
+            ('concepts', 'felidae'),
+        ],
+        'right': [
+            ('attributes', 'pos'),
+            ('concepts', 'canidae'),
+        ]
+    },
+    {   # 5
+        'label': 'Practice 3 (reversed)',
+        'n': 10,
+        'left': [('concepts', 'canidae')],
+        'right': [('concepts', 'felidae')],
+        'is_practice': True,
+        'notice': 'WATCH OUT, the categories switch sides!',
+    },
+    {  # 6
+        'label': 'Test 3',
+        'n': 20,
+        'left': [
+            ('attributes', 'neg'),
+            ('concepts', 'canidae'),
+        ],
+        'right': [
+            ('attributes', 'pos'),
+            ('concepts', 'felidae'),
+        ]
+    },
+    {  # 7: same as 6
+        'label': 'Test 4',
+        'n': 20,
+        'left': [
+            ('attributes', 'neg'),
+            ('concepts', 'canidae'),
+        ],
+        'right': [
+            ('attributes', 'pos'),
+            ('concepts', 'felidae'),
+        ]
+    },
 ]
 
 

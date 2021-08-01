@@ -1,0 +1,26 @@
+child_id,sex,race,X4_employment_parent1,X4_employment_parent2,X4_math_rs,quart_X4_per,quart_X4_con,pet
+10015687,male,"white, non-hispanic",35 or more hours per week,not applicable,44,unlikely,likely,none
+10006526,female,"white, non-hispanic",35 or more hours per week,35 or more hours per week,48,very likely,very likely,none
+10014707,female,"hispanic, race-specified",not in labor force,35 or more hours per week,43,likely,likely,dog
+10000759,female,"hispanic, race-specified",35 or more hours per week,not applicable,36,unlikely,unlikely,none
+10006276,male,"hispanic, race-specified",35 or more hours per week,not applicable,47,unlikely,very unlikely,dog
+10000676,female,"black, non-hispanic",35 or more hours per week,not applicable,50,likely,very unlikely,dog
+10016643,male,"white, non-hispanic",less than 35 hours per week,35 or more hours per week,75,very likely,very likely,none
+10002962,female,"hispanic, race-specified",35 or more hours per week,not applicable,50,unlikely,very unlikely,dog
+10008421,male,"white, non-hispanic",not in labor force,35 or more hours per week,59,unlikely,likely,none
+10005614,female,"black, non-hispanic",35 or more hours per week,not applicable,22,very unlikely,very unlikely,dog
+10011582,female,"white, non-hispanic",less than 35 hours per week,35 or more hours per week,51,very unlikely,very unlikely,none
+10010840,female,"white, non-hispanic",35 or more hours per week,35 or more hours per week,54,likely,likely,dog
+10006313,female,"hispanic, race-specified",not in labor force,less than 35 hours per week,51,likely,very likely,none
+10002221,male,"black, non-hispanic",35 or more hours per week,not applicable,55,very likely,very likely,none
+10005787,male,"hispanic, race-specified",not in labor force,35 or more hours per week,63,unlikely,unlikely,dog
+10009889,female,"white, non-hispanic",35 or more hours per week,35 or more hours per week,56,likely,unlikely,none
+10018044,female,"white, non-hispanic",35 or more hours per week,not applicable,45,very unlikely,very unlikely,cat
+10015452,female,"white, non-hispanic",35 or more hours per week,35 or more hours per week,57,likely,likely,none
+10017852,male,"hispanic, race-specified",not in labor force,not in labor force,43,very unlikely,very unlikely,none
+10014029,female,"white, non-hispanic",35 or more hours per week,35 or more hours per week,63,likely,likely,cat
+10007009,male,"white, non-hispanic",35 or more hours per week,not in labor force,58,unlikely,unlikely,dog
+10015625,male,"hispanic, race-specified",35 or more hours per week,35 or more hours per week,59,very likely,very likely,none
+10000110,female,"white, non-hispanic",less than 35 hours per week,35 or more hours per week,54,likely,likely,none
+10008813,female,"white, non-hispanic",35 or more hours per week,35 or more hours per week,60,likely,very likely,dog
+10009308,male,"white, non-hispanic",35 or more hours per week,35 or more hours per week,70,unlikely,unlikely,dog
